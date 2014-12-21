@@ -5,4 +5,9 @@ describe('container', () => {
     var container = new Container();
     expect(container).toBe(container);
   });
+  
+  it('test is setup correctly', ()=> {
+  
+    expect(true).toBe(false);
+  });
 });
